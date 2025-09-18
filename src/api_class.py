@@ -1,5 +1,6 @@
 from requests import get
 from abc import ABC, abstractmethod
+from vacancy_class import Vacancy
 
 
 class API(ABC):
@@ -39,14 +40,11 @@ class HeadHunterAPI(API):
                 elif vacancy['salary']['from'] is None:
                     salary = f"{vacancy['salary']['to']} руб."
                     average_salary = vacancy['salary']['to']
-                vacancies_list.append({
-                    'name': vacancy['name'],
-                    'url': vacancy['alternate_url'],
-                    'city': vacancy['area']['name'],
-                    'created_date': f'{vacancy['created_at'][8:10]}.{vacancy['created_at'][5:7]}.{vacancy['created_at'][0:4]}',
-                    'employer_url': vacancy['employer'].get('alternate_url'),
-                    'salary': salary,
-                    'average_salary': average_salary
-                })
-
+                vacancies_list.append(Vacancy(name=vacancy['name'],
+                                              url=vacancy['alternate_url'],
+                                              salary=salary,
+                                              average_salary=average_salary,
+                                              created_date=f'{vacancy['created_at'][8:10]}.{vacancy['created_at'][5:7]}.{vacancy['created_at'][0:4]}',
+                                              city=vacancy['area']['name'],
+                                              employer_url=vacancy['employer'].get('alternate_url')))
         return vacancies_list
