@@ -1,12 +1,18 @@
 from requests import get
+from abc import ABC, abstractmethod
 
 
-class HeadHunterAPI:
+class API(ABC):
+    @abstractmethod
+    def get_vacancies(self, text: str):
+        pass
+
+
+class HeadHunterAPI(API):
     """Класс по работе с HH API"""
 
-    @staticmethod
-    def get_vacancies(text: str):
-        """Метод get_vacancies позволяет получить все вакансии по заданному тексту.
+    def get_vacancies(self, text: str):
+        """Метод get_vacancies позволяет получить все вакансии(не больше 2000) по заданному тексту.
         :param text: Текст для поиска."""
         vacancies_list = []
         vacancies_quantity = get(f"https://api.hh.ru/vacancies?text={text}&only_with_salary=true&area=113").json()[
