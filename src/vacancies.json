@@ -1,0 +1,10 @@
+{
+    "https://hh.ru/vacancy/654321": {
+        "salary": "200 000 ₽",
+        "average_salary": 200000,
+        "city": "Санкт-Петербург",
+        "name": "Data Scientist",
+        "created_date": "2025-09-20",
+        "employer_url": "https://hh.ru/employer/54321"
+    }
+}
