@@ -1,10 +1,10 @@
 from pydantic import BaseModel, HttpUrl
 
 
-class VacancyShema(BaseModel):
+class VacancySchema(BaseModel):
     name: str
     salary: str
-    average_salary: int
+    average_salary: int | tuple[int, int]
     city: str
     url: HttpUrl
     created_date: str
@@ -12,10 +12,11 @@ class VacancyShema(BaseModel):
 
 
 class Vacancy:
-    def __init__(self, name: str, salary: str, average_salary: int, city: str, url: HttpUrl, created_date: str,
+    def __init__(self, name: str, salary: str, average_salary: int | tuple[int, int], city: str, url: HttpUrl,
+                 created_date: str,
                  employer_url: HttpUrl):
-        VacancyShema(name=name, salary=salary, average_salary=average_salary, city=city, url=url,
-                     created_date=created_date, employer_url=employer_url)
+        VacancySchema(name=name, salary=salary, average_salary=average_salary, city=city, url=url,
+                      created_date=created_date, employer_url=employer_url)
         self.__name = name
         self.__salary = salary
         self.__average_salary = average_salary
@@ -47,3 +48,20 @@ class Vacancy:
 
     def __ne__(self, other):
         return self.__average_salary != other.__average_salary
+
+    @property
+    def url(self):
+        return self.__url
+
+    def get_class_by_dict(self):
+        """Метод возвращает словарь, key которого является название вакансии, а value - все данные о ней"""
+        return {
+            f'{self.__url}': {
+                'salary': self.__salary,
+                'average_salary': self.__average_salary,
+                'city': self.__city,
+                'name': self.__name,
+                'created_date': self.__created_date,
+                'employer_url': self.__employer_url
+            }
+        }
