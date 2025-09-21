@@ -33,7 +33,7 @@ class HeadHunterAPI(API):
                     continue
                 if vacancy['salary']['from'] and vacancy['salary']['to']:
                     salary = f'от {vacancy['salary']['from']} до {vacancy['salary']['to']} руб.'
-                    average_salary = int((vacancy['salary']['from'] + vacancy['salary']['to']) / 2)
+                    average_salary = [vacancy['salary']['from'], vacancy['salary']['to']]
                 elif vacancy['salary']['to'] is None:
                     salary = f"{vacancy['salary']['from']} руб."
                     average_salary = vacancy['salary']['from']
