@@ -1,10 +1,1280 @@
 {
-    "https://hh.ru/vacancy/654321": {
-        "salary": "200 000 ₽",
-        "average_salary": 200000,
+    "https://hh.ru/vacancy/125621014": {
+        "name": "Junior Python Developer",
+        "salary": "от 60000 до 90000 руб.",
+        "average_salary": [
+            60000,
+            90000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T17:12:03+03:00",
+        "employer_url": "https://hh.ru/employer/10889402"
+    },
+    "https://hh.ru/vacancy/125618394": {
+        "name": "Back-end разработчик (Junior)",
+        "salary": "от 120000 до 170000 руб.",
+        "average_salary": [
+            120000,
+            170000
+        ],
+        "city": "Зеленоград",
+        "created_date": "2025-09-22T16:21:06+03:00",
+        "employer_url": "https://hh.ru/employer/160436"
+    },
+    "https://hh.ru/vacancy/125606310": {
+        "name": "Junior QA инженер",
+        "salary": "от 100000 до 130000 руб.",
+        "average_salary": [
+            100000,
+            130000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T13:30:17+03:00",
+        "employer_url": "https://hh.ru/employer/11511463"
+    },
+    "https://hh.ru/vacancy/125334844": {
+        "name": "Младший аналитик данных",
+        "salary": "от 40000 до 60000 руб.",
+        "average_salary": [
+            40000,
+            60000
+        ],
         "city": "Санкт-Петербург",
-        "name": "Data Scientist",
-        "created_date": "2025-09-20",
-        "employer_url": "https://hh.ru/employer/54321"
+        "created_date": "2025-09-15T14:17:30+03:00",
+        "employer_url": "https://hh.ru/employer/4138182"
+    },
+    "https://hh.ru/vacancy/121671481": {
+        "name": "Младший системный администратор",
+        "salary": "от 100000 до 111000 руб.",
+        "average_salary": [
+            100000,
+            111000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-11T12:32:35+03:00",
+        "employer_url": "https://hh.ru/employer/22216"
+    },
+    "https://hh.ru/vacancy/125338950": {
+        "name": "Junior Python разработчик",
+        "salary": "90000 руб.",
+        "average_salary": 90000,
+        "city": "Омск",
+        "created_date": "2025-09-15T15:11:18+03:00",
+        "employer_url": "https://hh.ru/employer/11977956"
+    },
+    "https://hh.ru/vacancy/125396711": {
+        "name": "Младший системный администратор (Junior SysAdmin)",
+        "salary": "90000 руб.",
+        "average_salary": 90000,
+        "city": "Москва",
+        "created_date": "2025-09-22T15:25:42+03:00",
+        "employer_url": "https://hh.ru/employer/3087930"
+    },
+    "https://hh.ru/vacancy/125299437": {
+        "name": "Python-разработчик",
+        "salary": "70000 руб.",
+        "average_salary": 70000,
+        "city": "Москва",
+        "created_date": "2025-09-14T18:15:55+03:00",
+        "employer_url": "https://hh.ru/employer/11451145"
+    },
+    "https://hh.ru/vacancy/125502250": {
+        "name": "Junior+ product analyst",
+        "salary": "170000 руб.",
+        "average_salary": 170000,
+        "city": "Москва",
+        "created_date": "2025-09-18T18:59:28+03:00",
+        "employer_url": "https://hh.ru/employer/1096484"
+    },
+    "https://hh.ru/vacancy/124827764": {
+        "name": "Python developer (Junior)",
+        "salary": "150000 руб.",
+        "average_salary": 150000,
+        "city": "Воронеж",
+        "created_date": "2025-09-21T14:56:53+03:00",
+        "employer_url": "https://hh.ru/employer/598471"
+    },
+    "https://hh.ru/vacancy/125544207": {
+        "name": "Junior аналитик данных (FinTech)",
+        "salary": "70000 руб.",
+        "average_salary": 70000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-19T18:19:45+03:00",
+        "employer_url": "https://hh.ru/employer/1146142"
+    },
+    "https://hh.ru/vacancy/124471359": {
+        "name": "Junior Python разработчик",
+        "salary": "от 70000 до 100000 руб.",
+        "average_salary": [
+            70000,
+            100000
+        ],
+        "city": "Москва",
+        "created_date": "2025-08-26T08:11:51+03:00",
+        "employer_url": "https://hh.ru/employer/11599905"
+    },
+    "https://hh.ru/vacancy/125377617": {
+        "name": "Младший аналитик данных",
+        "salary": "от 70000 до 100000 руб.",
+        "average_salary": [
+            70000,
+            100000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-16T10:59:13+03:00",
+        "employer_url": "https://hh.ru/employer/798"
+    },
+    "https://hh.ru/vacancy/125524220": {
+        "name": "Программист-разработчик",
+        "salary": "100000 руб.",
+        "average_salary": 100000,
+        "city": "Москва",
+        "created_date": "2025-09-22T11:59:25+03:00",
+        "employer_url": "https://hh.ru/employer/12309148"
+    },
+    "https://hh.ru/vacancy/125330674": {
+        "name": "Младший аналитик данных",
+        "salary": "84000 руб.",
+        "average_salary": 84000,
+        "city": "Москва",
+        "created_date": "2025-09-21T13:19:37+03:00",
+        "employer_url": "https://hh.ru/employer/5413395"
+    },
+    "https://hh.ru/vacancy/125332748": {
+        "name": "Младший аналитик",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Екатеринбург",
+        "created_date": "2025-09-15T13:50:42+03:00",
+        "employer_url": "https://hh.ru/employer/36860"
+    },
+    "https://hh.ru/vacancy/125605909": {
+        "name": "Junior Full-stack Аналитик",
+        "salary": "от 120000 до 150000 руб.",
+        "average_salary": [
+            120000,
+            150000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T13:23:37+03:00",
+        "employer_url": "https://hh.ru/employer/11511463"
+    },
+    "https://hh.ru/vacancy/125449433": {
+        "name": "Junior Devops engineer / Linux администратор",
+        "salary": "от 60000 до 110000 руб.",
+        "average_salary": [
+            60000,
+            110000
+        ],
+        "city": "Нижний Новгород",
+        "created_date": "2025-09-17T16:31:17+03:00",
+        "employer_url": "https://hh.ru/employer/2132881"
+    },
+    "https://hh.ru/vacancy/124490390": {
+        "name": "Junior Python developer",
+        "salary": "120000 руб.",
+        "average_salary": 120000,
+        "city": "Москва",
+        "created_date": "2025-09-22T12:22:36+03:00",
+        "employer_url": "https://hh.ru/employer/11936411"
+    },
+    "https://hh.ru/vacancy/124951486": {
+        "name": "Специалист по тестированию (Middle QA)",
+        "salary": "от 150000 до 150000 руб.",
+        "average_salary": [
+            150000,
+            150000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-05T17:01:12+03:00",
+        "employer_url": "https://hh.ru/employer/1111946"
+    },
+    "https://hh.ru/vacancy/125470141": {
+        "name": "Junior Тестировщик",
+        "salary": "от 60000 до 80000 руб.",
+        "average_salary": [
+            60000,
+            80000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-18T10:22:01+03:00",
+        "employer_url": "https://hh.ru/employer/5185896"
+    },
+    "https://hh.ru/vacancy/125573988": {
+        "name": "Разработчик С++ (junior)",
+        "salary": "130000 руб.",
+        "average_salary": 130000,
+        "city": "Москва",
+        "created_date": "2025-09-22T06:35:28+03:00",
+        "employer_url": "https://hh.ru/employer/4782110"
+    },
+    "https://hh.ru/vacancy/125265063": {
+        "name": "Junior\\Middle Backend Python разработчик (FastAPI)",
+        "salary": "от 50000 до 70000 руб.",
+        "average_salary": [
+            50000,
+            70000
+        ],
+        "city": "Ульяновск",
+        "created_date": "2025-09-12T11:14:53+03:00",
+        "employer_url": "https://hh.ru/employer/6099903"
+    },
+    "https://hh.ru/vacancy/125335113": {
+        "name": "Младший технический специалист / Junior Tech Specialist",
+        "salary": "от 60000 до 80000 руб.",
+        "average_salary": [
+            60000,
+            80000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-21T14:20:24+03:00",
+        "employer_url": "https://hh.ru/employer/6111175"
+    },
+    "https://hh.ru/vacancy/125390117": {
+        "name": "Junior Fullstack разработчик Django/Python",
+        "salary": "80000 руб.",
+        "average_salary": 80000,
+        "city": "Новосибирск",
+        "created_date": "2025-09-16T13:58:11+03:00",
+        "employer_url": "https://hh.ru/employer/1127104"
+    },
+    "https://hh.ru/vacancy/124449246": {
+        "name": "Junior Data Scientist (Python, ML) / Дата-сайентист",
+        "salary": "от 80000 до 100000 руб.",
+        "average_salary": [
+            80000,
+            100000
+        ],
+        "city": "Москва",
+        "created_date": "2025-08-25T15:52:47+03:00",
+        "employer_url": "https://hh.ru/employer/2223982"
+    },
+    "https://hh.ru/vacancy/125068241": {
+        "name": "Junior DevOps Engineer",
+        "salary": "от 150000 до 170000 руб.",
+        "average_salary": [
+            150000,
+            170000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-20T18:14:50+03:00",
+        "employer_url": "https://hh.ru/employer/76650"
+    },
+    "https://hh.ru/vacancy/124884214": {
+        "name": "Младший тестировщик/Junior+ QA",
+        "salary": "60000 руб.",
+        "average_salary": 60000,
+        "city": "Москва",
+        "created_date": "2025-09-04T15:36:59+03:00",
+        "employer_url": "https://hh.ru/employer/8642172"
+    },
+    "https://hh.ru/vacancy/124714464": {
+        "name": "Junior ML-разработчик",
+        "salary": "90000 руб.",
+        "average_salary": 90000,
+        "city": "Омск",
+        "created_date": "2025-09-01T14:08:37+03:00",
+        "employer_url": "https://hh.ru/employer/11977956"
+    },
+    "https://hh.ru/vacancy/124994371": {
+        "name": "Junior QA (АБС ЦФТ-Банк)",
+        "salary": "от 40000 до 60000 руб.",
+        "average_salary": [
+            40000,
+            60000
+        ],
+        "city": "Казань",
+        "created_date": "2025-09-08T09:40:51+03:00",
+        "employer_url": "https://hh.ru/employer/99993"
+    },
+    "https://hh.ru/vacancy/125152392": {
+        "name": "Junior developer (backend Phyton)",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Москва",
+        "created_date": "2025-09-10T13:07:45+03:00",
+        "employer_url": "https://hh.ru/employer/11040411"
+    },
+    "https://hh.ru/vacancy/124879185": {
+        "name": "Junior AI / Python junior разработчик",
+        "salary": "от 60000 до 120000 руб.",
+        "average_salary": [
+            60000,
+            120000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T14:27:06+03:00",
+        "employer_url": "https://hh.ru/employer/11406633"
+    },
+    "https://hh.ru/vacancy/125342643": {
+        "name": "Младший системный администратор",
+        "salary": "от 60000 до 80000 руб.",
+        "average_salary": [
+            60000,
+            80000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-21T16:11:02+03:00",
+        "employer_url": "https://hh.ru/employer/6063931"
+    },
+    "https://hh.ru/vacancy/106172637": {
+        "name": "Разработчик банковского ПО (junior)",
+        "salary": "120000 руб.",
+        "average_salary": 120000,
+        "city": "Челябинск",
+        "created_date": "2025-09-22T06:38:37+03:00",
+        "employer_url": "https://hh.ru/employer/1203065"
+    },
+    "https://hh.ru/vacancy/124773695": {
+        "name": "Тестировщик-автоматизатор (Python)",
+        "salary": "160000 руб.",
+        "average_salary": 160000,
+        "city": "Москва",
+        "created_date": "2025-09-02T14:12:37+03:00",
+        "employer_url": "https://hh.ru/employer/11354870"
+    },
+    "https://hh.ru/vacancy/124675920": {
+        "name": "Junior QA Engineer",
+        "salary": "69000 руб.",
+        "average_salary": 69000,
+        "city": "Краснодар",
+        "created_date": "2025-09-16T07:59:10+03:00",
+        "employer_url": "https://hh.ru/employer/1545815"
+    },
+    "https://hh.ru/vacancy/124931345": {
+        "name": "Junior Python-разработчик",
+        "salary": "75000 руб.",
+        "average_salary": 75000,
+        "city": "Челябинск",
+        "created_date": "2025-09-05T12:38:14+03:00",
+        "employer_url": "https://hh.ru/employer/11486464"
+    },
+    "https://hh.ru/vacancy/124713307": {
+        "name": "Junior Data Analyst/Аналитик данных",
+        "salary": "90000 руб.",
+        "average_salary": 90000,
+        "city": "Омск",
+        "created_date": "2025-09-01T13:55:30+03:00",
+        "employer_url": "https://hh.ru/employer/11977956"
+    },
+    "https://hh.ru/vacancy/125292444": {
+        "name": "Junior Data Analyst",
+        "salary": "от 70000 до 100000 руб.",
+        "average_salary": [
+            70000,
+            100000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-13T11:09:20+03:00",
+        "employer_url": "https://hh.ru/employer/12044694"
+    },
+    "https://hh.ru/vacancy/124275705": {
+        "name": "Программист Python (Junior)",
+        "salary": "30000 руб.",
+        "average_salary": 30000,
+        "city": "Волгоград",
+        "created_date": "2025-09-03T10:14:44+03:00",
+        "employer_url": "https://hh.ru/employer/9476346"
+    },
+    "https://hh.ru/vacancy/124874178": {
+        "name": "AI-разработчик junior",
+        "salary": "от 30000 до 40000 руб.",
+        "average_salary": [
+            30000,
+            40000
+        ],
+        "city": "Барнаул",
+        "created_date": "2025-09-04T13:12:38+03:00",
+        "employer_url": "https://hh.ru/employer/76164"
+    },
+    "https://hh.ru/vacancy/125484473": {
+        "name": "Программист С++/Qt (junior)",
+        "salary": "130000 руб.",
+        "average_salary": 130000,
+        "city": "Москва",
+        "created_date": "2025-09-18T13:58:05+03:00",
+        "employer_url": "https://hh.ru/employer/44415"
+    },
+    "https://hh.ru/vacancy/125281776": {
+        "name": "Менеджер по маркетплейсам (Ozon, WB)",
+        "salary": "60000 руб.",
+        "average_salary": 60000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-21T15:48:58+03:00",
+        "employer_url": "https://hh.ru/employer/5722985"
+    },
+    "https://hh.ru/vacancy/124913405": {
+        "name": "Программист / интегратор (Python)",
+        "salary": "от 40000 до 60000 руб.",
+        "average_salary": [
+            40000,
+            60000
+        ],
+        "city": "Омск",
+        "created_date": "2025-09-05T10:09:27+03:00",
+        "employer_url": "https://hh.ru/employer/4380847"
+    },
+    "https://hh.ru/vacancy/125141823": {
+        "name": "Младший Маркетолог-аналитик",
+        "salary": "от 70000 до 85000 руб.",
+        "average_salary": [
+            70000,
+            85000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-10T11:01:52+03:00",
+        "employer_url": "https://hh.ru/employer/638620"
+    },
+    "https://hh.ru/vacancy/125586690": {
+        "name": "Младший риск-аналитик",
+        "salary": "от 109620 до 135720 руб.",
+        "average_salary": [
+            109620,
+            135720
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T09:40:39+03:00",
+        "employer_url": "https://hh.ru/employer/180028"
+    },
+    "https://hh.ru/vacancy/125591688": {
+        "name": "Старший методист",
+        "salary": "от 110000 до 130000 руб.",
+        "average_salary": [
+            110000,
+            130000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T10:32:46+03:00",
+        "employer_url": "https://hh.ru/employer/1358439"
+    },
+    "https://hh.ru/vacancy/125230464": {
+        "name": "Разработчик Java/Python (ТГ боты)",
+        "salary": "от 70000 до 150000 руб.",
+        "average_salary": [
+            70000,
+            150000
+        ],
+        "city": "Новосибирск",
+        "created_date": "2025-09-20T14:49:13+03:00",
+        "employer_url": "https://hh.ru/employer/11285158"
+    },
+    "https://hh.ru/vacancy/123972095": {
+        "name": "Junior Python developer (в офис)",
+        "salary": "60000 руб.",
+        "average_salary": 60000,
+        "city": "Москва",
+        "created_date": "2025-09-18T11:47:40+03:00",
+        "employer_url": "https://hh.ru/employer/4855149"
+    },
+    "https://hh.ru/vacancy/125625262": {
+        "name": "Junior+ Backend разработчик",
+        "salary": "от 30000 до 60000 руб.",
+        "average_salary": [
+            30000,
+            60000
+        ],
+        "city": "Калининград",
+        "created_date": "2025-09-22T19:31:37+03:00",
+        "employer_url": "https://hh.ru/employer/11028857"
+    },
+    "https://hh.ru/vacancy/125534467": {
+        "name": "Trainee/Intern/Junior Python backend developer",
+        "salary": "от 20000 до 40000 руб.",
+        "average_salary": [
+            20000,
+            40000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-19T14:47:13+03:00",
+        "employer_url": "https://hh.ru/employer/4888751"
+    },
+    "https://hh.ru/vacancy/125331155": {
+        "name": "Инженер машинного обучения (Начальный уровень/Junior)",
+        "salary": "70000 руб.",
+        "average_salary": 70000,
+        "city": "Челябинск",
+        "created_date": "2025-09-15T13:27:08+03:00",
+        "employer_url": "https://hh.ru/employer/67788"
+    },
+    "https://hh.ru/vacancy/120991947": {
+        "name": "Junior Дата-аналитик",
+        "salary": "75000 руб.",
+        "average_salary": 75000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-08T13:22:57+03:00",
+        "employer_url": "https://hh.ru/employer/5179427"
+    },
+    "https://hh.ru/vacancy/124448840": {
+        "name": "Junior Data Analyst (Python) / Аналитик данных",
+        "salary": "от 80000 до 100000 руб.",
+        "average_salary": [
+            80000,
+            100000
+        ],
+        "city": "Москва",
+        "created_date": "2025-08-25T15:46:11+03:00",
+        "employer_url": "https://hh.ru/employer/2223982"
+    },
+    "https://hh.ru/vacancy/120718987": {
+        "name": "Младший аналитик данных",
+        "salary": "90000 руб.",
+        "average_salary": 90000,
+        "city": "Москва",
+        "created_date": "2025-09-12T18:54:14+03:00",
+        "employer_url": "https://hh.ru/employer/654795"
+    },
+    "https://hh.ru/vacancy/123536199": {
+        "name": "Product Analyst Junior",
+        "salary": "120000 руб.",
+        "average_salary": 120000,
+        "city": "Москва",
+        "created_date": "2025-09-11T14:32:57+03:00",
+        "employer_url": "https://hh.ru/employer/5333428"
+    },
+    "https://hh.ru/vacancy/124505943": {
+        "name": "Тестировщик ПО (Junior) в область программно-аппаратных комплексов",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-08-26T16:09:35+03:00",
+        "employer_url": "https://hh.ru/employer/11606019"
+    },
+    "https://hh.ru/vacancy/125503386": {
+        "name": "Инженер-программист (Junior C/C++ (Linux))",
+        "salary": "130000 руб.",
+        "average_salary": 130000,
+        "city": "Москва",
+        "created_date": "2025-09-21T21:26:19+03:00",
+        "employer_url": "https://hh.ru/employer/671443"
+    },
+    "https://hh.ru/vacancy/124463761": {
+        "name": "Специалист по информационной безопасности",
+        "salary": "150000 руб.",
+        "average_salary": 150000,
+        "city": "Якутск",
+        "created_date": "2025-08-26T03:19:43+03:00",
+        "employer_url": "https://hh.ru/employer/1747054"
+    },
+    "https://hh.ru/vacancy/122036594": {
+        "name": "Младший инженер по тестированию ПО (Linux)",
+        "salary": "99000 руб.",
+        "average_salary": 99000,
+        "city": "Обнинск",
+        "created_date": "2025-09-15T12:44:30+03:00",
+        "employer_url": "https://hh.ru/employer/2842803"
+    },
+    "https://hh.ru/vacancy/124604710": {
+        "name": "DevOps-инженер (Junior)",
+        "salary": "от 45000 до 72000 руб.",
+        "average_salary": [
+            45000,
+            72000
+        ],
+        "city": "Ростов-на-Дону",
+        "created_date": "2025-09-10T10:06:15+03:00",
+        "employer_url": "https://hh.ru/employer/77301"
+    },
+    "https://hh.ru/vacancy/120013095": {
+        "name": "Программист (junior)",
+        "salary": "от 65000 до 70000 руб.",
+        "average_salary": [
+            65000,
+            70000
+        ],
+        "city": "Новосибирск",
+        "created_date": "2025-09-04T10:13:08+03:00",
+        "employer_url": "https://hh.ru/employer/3237113"
+    },
+    "https://hh.ru/vacancy/123607569": {
+        "name": "Младший специалист в Департамент анализа данных и моделирования, ВТБ РОСТ",
+        "salary": "от 130000 до 130000 руб.",
+        "average_salary": [
+            130000,
+            130000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-08T12:15:26+03:00",
+        "employer_url": "https://hh.ru/employer/4181"
+    },
+    "https://hh.ru/vacancy/124931667": {
+        "name": "Junior Golang Developer",
+        "salary": "от 75000 до 120000 руб.",
+        "average_salary": [
+            75000,
+            120000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-05T12:42:42+03:00",
+        "employer_url": "https://hh.ru/employer/11486464"
+    },
+    "https://hh.ru/vacancy/125408506": {
+        "name": "Game Programmer (Junior)",
+        "salary": "300 руб.",
+        "average_salary": 300,
+        "city": "Сочи",
+        "created_date": "2025-09-16T18:53:54+03:00",
+        "employer_url": "https://hh.ru/employer/8955745"
+    },
+    "https://hh.ru/vacancy/120851177": {
+        "name": "Junior DevOps engineer",
+        "salary": "100000 руб.",
+        "average_salary": 100000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-22T09:58:22+03:00",
+        "employer_url": "https://hh.ru/employer/14809"
+    },
+    "https://hh.ru/vacancy/125084991": {
+        "name": "Старший Backend-разработчик",
+        "salary": "130000 руб.",
+        "average_salary": 130000,
+        "city": "Москва",
+        "created_date": "2025-09-09T10:02:52+03:00",
+        "employer_url": "https://hh.ru/employer/3136448"
+    },
+    "https://hh.ru/vacancy/124967215": {
+        "name": "AI-инженер / Главный специалист по ИИ / Продакт-менеджер ИИ / ИИ-консультант / Prompt-инженер",
+        "salary": "от 40000 до 150000 руб.",
+        "average_salary": [
+            40000,
+            150000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-05T22:31:03+03:00",
+        "employer_url": "https://hh.ru/employer/11422756"
+    },
+    "https://hh.ru/vacancy/124426136": {
+        "name": "Junior Python разработчик",
+        "salary": "80000 руб.",
+        "average_salary": 80000,
+        "city": "Москва",
+        "created_date": "2025-09-21T11:04:44+03:00",
+        "employer_url": "https://hh.ru/employer/5155838"
+    },
+    "https://hh.ru/vacancy/124452308": {
+        "name": "Junior AI Researcher / AI Developer",
+        "salary": "от 70000 до 100000 руб.",
+        "average_salary": [
+            70000,
+            100000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-08-25T16:40:36+03:00",
+        "employer_url": "https://hh.ru/employer/1795976"
+    },
+    "https://hh.ru/vacancy/125247560": {
+        "name": "OSINT-специалист",
+        "salary": "от 60000 до 150000 руб.",
+        "average_salary": [
+            60000,
+            150000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-20T18:19:35+03:00",
+        "employer_url": "https://hh.ru/employer/1417021"
+    },
+    "https://hh.ru/vacancy/124461946": {
+        "name": "Младший системный администратор / Инженер helpdesk",
+        "salary": "от 100000 до 150000 руб.",
+        "average_salary": [
+            100000,
+            150000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T14:03:15+03:00",
+        "employer_url": "https://hh.ru/employer/205152"
+    },
+    "https://hh.ru/vacancy/125359822": {
+        "name": "Junior C++ разработчик алгоритмов геометрического моделирования",
+        "salary": "от 60000 до 100000 руб.",
+        "average_salary": [
+            60000,
+            100000
+        ],
+        "city": "Новосибирск",
+        "created_date": "2025-09-21T20:23:51+03:00",
+        "employer_url": "https://hh.ru/employer/2134970"
+    },
+    "https://hh.ru/vacancy/123668115": {
+        "name": "Site Reliability Engineer (SRE)/Sysadmin junior",
+        "salary": "220000 руб.",
+        "average_salary": 220000,
+        "city": "Москва",
+        "created_date": "2025-09-15T23:25:51+03:00",
+        "employer_url": "https://hh.ru/employer/561525"
+    },
+    "https://hh.ru/vacancy/124742871": {
+        "name": "Программист/разработчик RPA (стажер/junior)",
+        "salary": "40000 руб.",
+        "average_salary": 40000,
+        "city": "Магнитогорск",
+        "created_date": "2025-09-17T12:01:50+03:00",
+        "employer_url": "https://hh.ru/employer/5875196"
+    },
+    "https://hh.ru/vacancy/124691440": {
+        "name": "Дата-инженер / BI-аналитик",
+        "salary": "140000 руб.",
+        "average_salary": 140000,
+        "city": "Москва",
+        "created_date": "2025-09-22T09:16:07+03:00",
+        "employer_url": "https://hh.ru/employer/10929964"
+    },
+    "https://hh.ru/vacancy/124549952": {
+        "name": "Middle data analyst",
+        "salary": "120000 руб.",
+        "average_salary": 120000,
+        "city": "Москва",
+        "created_date": "2025-09-16T17:05:47+03:00",
+        "employer_url": "https://hh.ru/employer/11685507"
+    },
+    "https://hh.ru/vacancy/125295173": {
+        "name": "Full-stack разработчик React.js + Python [Strong Junior]",
+        "salary": "от 80000 до 120000 руб.",
+        "average_salary": [
+            80000,
+            120000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-13T22:00:55+03:00",
+        "employer_url": "https://hh.ru/employer/9172919"
+    },
+    "https://hh.ru/vacancy/119526802": {
+        "name": "Младший аналитик (Junior Analyst)",
+        "salary": "100000 руб.",
+        "average_salary": 100000,
+        "city": "Москва",
+        "created_date": "2025-09-12T16:41:53+03:00",
+        "employer_url": "https://hh.ru/employer/1035394"
+    },
+    "https://hh.ru/vacancy/123486063": {
+        "name": "Старший backend-разработчик (Python)",
+        "salary": "250000 руб.",
+        "average_salary": 250000,
+        "city": "Москва",
+        "created_date": "2025-08-26T12:49:06+03:00",
+        "employer_url": "https://hh.ru/employer/10232312"
+    },
+    "https://hh.ru/vacancy/124312554": {
+        "name": ".Net наставник (Воронеж)",
+        "salary": "от 350000 до 470000 руб.",
+        "average_salary": [
+            350000,
+            470000
+        ],
+        "city": "Воронеж",
+        "created_date": "2025-09-20T10:21:20+03:00",
+        "employer_url": "https://hh.ru/employer/598471"
+    },
+    "https://hh.ru/vacancy/124786817": {
+        "name": "Старший аналитик рынка недвижимости (оценка)",
+        "salary": "от 380000 до 507000 руб.",
+        "average_salary": [
+            380000,
+            507000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-02T17:21:29+03:00",
+        "employer_url": "https://hh.ru/employer/62136"
+    },
+    "https://hh.ru/vacancy/124733645": {
+        "name": "Senior Python разработчик",
+        "salary": "350000 руб.",
+        "average_salary": 350000,
+        "city": "Москва",
+        "created_date": "2025-09-02T00:20:01+03:00",
+        "employer_url": "https://hh.ru/employer/2287613"
+    },
+    "https://hh.ru/vacancy/123735772": {
+        "name": "Ведущий дата-аналитик",
+        "salary": "150000 руб.",
+        "average_salary": 150000,
+        "city": "Новосибирск",
+        "created_date": "2025-09-18T17:49:58+03:00",
+        "employer_url": "https://hh.ru/employer/10762898"
+    },
+    "https://hh.ru/vacancy/124354055": {
+        "name": "Заместитель руководителя отдела аналитики (ОФИС)",
+        "salary": "120000 руб.",
+        "average_salary": 120000,
+        "city": "Нижний Новгород",
+        "created_date": "2025-09-10T16:07:07+03:00",
+        "employer_url": "https://hh.ru/employer/5551058"
+    },
+    "https://hh.ru/vacancy/124676844": {
+        "name": "Junior Game Programmer",
+        "salary": "300 руб.",
+        "average_salary": 300,
+        "city": "Ташкент",
+        "created_date": "2025-08-31T11:35:34+03:00",
+        "employer_url": "https://hh.ru/employer/8955745"
+    },
+    "https://hh.ru/vacancy/125495839": {
+        "name": "Инженер-программист (Junior C/C++ (Linux))",
+        "salary": "110000 руб.",
+        "average_salary": 110000,
+        "city": "Протвино (Московская область)",
+        "created_date": "2025-09-21T16:47:32+03:00",
+        "employer_url": "https://hh.ru/employer/671443"
+    },
+    "https://hh.ru/vacancy/124532401": {
+        "name": "IT-специалист / специалист технической поддержки / администратор CRM (junior)",
+        "salary": "от 60000 до 80000 руб.",
+        "average_salary": [
+            60000,
+            80000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-20T10:26:16+03:00",
+        "employer_url": "https://hh.ru/employer/3458873"
+    },
+    "https://hh.ru/vacancy/124433517": {
+        "name": "Специалист технической поддержки",
+        "salary": "от 100000 до 120000 руб.",
+        "average_salary": [
+            100000,
+            120000
+        ],
+        "city": "Москва",
+        "created_date": "2025-08-25T12:31:36+03:00",
+        "employer_url": "https://hh.ru/employer/2831611"
+    },
+    "https://hh.ru/vacancy/124819286": {
+        "name": "Junior Node.JS программист (DataMining)",
+        "salary": "от 50000 до 100000 руб.",
+        "average_salary": [
+            50000,
+            100000
+        ],
+        "city": "Екатеринбург",
+        "created_date": "2025-09-21T12:55:50+03:00",
+        "employer_url": "https://hh.ru/employer/3672566"
+    },
+    "https://hh.ru/vacancy/123321599": {
+        "name": "Младший инженер по системам IP видеонаблюдения, СКУД, ОПС",
+        "salary": "от 36640 до 57120 руб.",
+        "average_salary": [
+            36640,
+            57120
+        ],
+        "city": "Воронеж",
+        "created_date": "2025-08-25T11:04:59+03:00",
+        "employer_url": "https://hh.ru/employer/788921"
+    },
+    "https://hh.ru/vacancy/124454812": {
+        "name": "Младший преподаватель (Python / C++ / Информационная безопасность)",
+        "salary": "60000 руб.",
+        "average_salary": 60000,
+        "city": "Москва",
+        "created_date": "2025-08-25T17:19:25+03:00",
+        "employer_url": "https://hh.ru/employer/11727418"
+    },
+    "https://hh.ru/vacancy/125626282": {
+        "name": "Преподаватель IT для детей в онлайн-школу",
+        "salary": "от 60000 до 100000 руб.",
+        "average_salary": [
+            60000,
+            100000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-22T21:07:50+03:00",
+        "employer_url": "https://hh.ru/employer/2921754"
+    },
+    "https://hh.ru/vacancy/124537177": {
+        "name": "Технический аналитик/Junior Tech Lead",
+        "salary": "от 85000 до 85000 руб.",
+        "average_salary": [
+            85000,
+            85000
+        ],
+        "city": "Екатеринбург",
+        "created_date": "2025-09-20T11:24:47+03:00",
+        "employer_url": "https://hh.ru/employer/4011556"
+    },
+    "https://hh.ru/vacancy/125432213": {
+        "name": "Младший инженер технической поддержки",
+        "salary": "80000 руб.",
+        "average_salary": 80000,
+        "city": "Москва",
+        "created_date": "2025-09-20T12:07:15+03:00",
+        "employer_url": "https://hh.ru/employer/2723603"
+    },
+    "https://hh.ru/vacancy/124534690": {
+        "name": "Ассистент преподавателя",
+        "salary": "от 12000 до 30000 руб.",
+        "average_salary": [
+            12000,
+            30000
+        ],
+        "city": "Усолье-Сибирское",
+        "created_date": "2025-08-27T10:53:16+03:00",
+        "employer_url": "https://hh.ru/employer/5705561"
+    },
+    "https://hh.ru/vacancy/125096519": {
+        "name": "Консультант-стажер 1С (Техподдержка)",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Москва",
+        "created_date": "2025-09-19T15:19:36+03:00",
+        "employer_url": "https://hh.ru/employer/3177"
+    },
+    "https://hh.ru/vacancy/124641428": {
+        "name": "Методист образовательных программ (старший педагог)",
+        "salary": "от 20000 до 25000 руб.",
+        "average_salary": [
+            20000,
+            25000
+        ],
+        "city": "Иваново (Ивановская область)",
+        "created_date": "2025-08-29T15:01:07+03:00",
+        "employer_url": "https://hh.ru/employer/3280619"
+    },
+    "https://hh.ru/vacancy/125249067": {
+        "name": "Преподаватель программирования и IT дисциплин оффлайн (Scratch, Python, компьютерная грамотность)",
+        "salary": "1333 руб.",
+        "average_salary": 1333,
+        "city": "Старая Купавна (Московская область)",
+        "created_date": "2025-09-11T20:30:07+03:00",
+        "employer_url": "https://hh.ru/employer/12037980"
+    },
+    "https://hh.ru/vacancy/125543619": {
+        "name": "Преподаватель детских компьютерных курсов",
+        "salary": "35000 руб.",
+        "average_salary": 35000,
+        "city": "Волгодонск",
+        "created_date": "2025-09-22T18:00:49+03:00",
+        "employer_url": "https://hh.ru/employer/3192913"
+    },
+    "https://hh.ru/vacancy/125154934": {
+        "name": "Учитель кружка программирования",
+        "salary": "от 90000 до 130000 руб.",
+        "average_salary": [
+            90000,
+            130000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-10T13:29:53+03:00",
+        "employer_url": "https://hh.ru/employer/4690438"
+    },
+    "https://hh.ru/vacancy/124816261": {
+        "name": "Старший инженер данных отдела разработки аналитических систем",
+        "salary": "300000 руб.",
+        "average_salary": 300000,
+        "city": "Москва",
+        "created_date": "2025-09-21T12:16:44+03:00",
+        "employer_url": "https://hh.ru/employer/2608647"
+    },
+    "https://hh.ru/vacancy/125597397": {
+        "name": "Учитель кружка программирования",
+        "salary": "от 50000 до 90000 руб.",
+        "average_salary": [
+            50000,
+            90000
+        ],
+        "city": "Сочи",
+        "created_date": "2025-09-22T11:33:31+03:00",
+        "employer_url": "https://hh.ru/employer/4690438"
+    },
+    "https://hh.ru/vacancy/125106926": {
+        "name": "Fullstack Team Lead (Python/JS)",
+        "salary": "210000 руб.",
+        "average_salary": 210000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-09T14:50:44+03:00",
+        "employer_url": "https://hh.ru/employer/4350075"
+    },
+    "https://hh.ru/vacancy/124701942": {
+        "name": "Тьютор (Преподаватель) программирования для детей",
+        "salary": "от 14400 до 98000 руб.",
+        "average_salary": [
+            14400,
+            98000
+        ],
+        "city": "Усолье-Сибирское",
+        "created_date": "2025-09-04T07:30:54+03:00",
+        "employer_url": "https://hh.ru/employer/5705561"
+    },
+    "https://hh.ru/vacancy/123306290": {
+        "name": "Преподаватель программирования (онлайн)",
+        "salary": "90000 руб.",
+        "average_salary": 90000,
+        "city": "Москва",
+        "created_date": "2025-09-20T13:01:43+03:00",
+        "employer_url": "https://hh.ru/employer/1358439"
+    },
+    "https://hh.ru/vacancy/125027665": {
+        "name": "Full Stack разработчик (системы обработки заказов с маркетплейсов)",
+        "salary": "150000 руб.",
+        "average_salary": 150000,
+        "city": "Новосибирск",
+        "created_date": "2025-09-20T14:01:40+03:00",
+        "employer_url": "https://hh.ru/employer/2420260"
+    },
+    "https://hh.ru/vacancy/124737898": {
+        "name": "Преподаватель в Школу программирования для детей",
+        "salary": "от 30000 до 50000 руб.",
+        "average_salary": [
+            30000,
+            50000
+        ],
+        "city": "Севастополь",
+        "created_date": "2025-09-02T07:16:28+03:00",
+        "employer_url": "https://hh.ru/employer/11434886"
+    },
+    "https://hh.ru/vacancy/124461384": {
+        "name": "Преподаватель в технический детский центр Start Junior",
+        "salary": "от 35000 до 40000 руб.",
+        "average_salary": [
+            35000,
+            40000
+        ],
+        "city": "Иваново (Ивановская область)",
+        "created_date": "2025-08-25T19:00:47+03:00",
+        "employer_url": "https://hh.ru/employer/3280619"
+    },
+    "https://hh.ru/vacancy/123570870": {
+        "name": "Преподаватель компьютерных курсов",
+        "salary": "45000 руб.",
+        "average_salary": 45000,
+        "city": "Светлоград",
+        "created_date": "2025-09-03T10:28:44+03:00",
+        "employer_url": "https://hh.ru/employer/3192913"
+    },
+    "https://hh.ru/vacancy/124545899": {
+        "name": "Преподаватель для детей в IT- академию (Санкт-Петербург, м. Московская)",
+        "salary": "от 40000 до 130000 руб.",
+        "average_salary": [
+            40000,
+            130000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-20T13:26:58+03:00",
+        "employer_url": "https://hh.ru/employer/3192913"
+    },
+    "https://hh.ru/vacancy/125388989": {
+        "name": "Преподаватель курса «Кибербезопасность и приложения на Python»",
+        "salary": "от 30000 до 60000 руб.",
+        "average_salary": [
+            30000,
+            60000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-16T13:38:16+03:00",
+        "employer_url": "https://hh.ru/employer/2863076"
+    },
+    "https://hh.ru/vacancy/124790382": {
+        "name": "Педагог по информатике и программированию",
+        "salary": "от 1500 до 2000 руб.",
+        "average_salary": [
+            1500,
+            2000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-02T20:07:51+03:00",
+        "employer_url": "https://hh.ru/employer/1586968"
+    },
+    "https://hh.ru/vacancy/124444262": {
+        "name": "Преподаватель IT дисциплин",
+        "salary": "от 20000 до 55000 руб.",
+        "average_salary": [
+            20000,
+            55000
+        ],
+        "city": "Всеволожск",
+        "created_date": "2025-08-25T14:42:40+03:00",
+        "employer_url": "https://hh.ru/employer/3192913"
+    },
+    "https://hh.ru/vacancy/124606587": {
+        "name": "Руководитель группы разработки",
+        "salary": "от 160000 до 180000 руб.",
+        "average_salary": [
+            160000,
+            180000
+        ],
+        "city": "Москва",
+        "created_date": "2025-09-21T18:27:59+03:00",
+        "employer_url": "https://hh.ru/employer/5600787"
+    },
+    "https://hh.ru/vacancy/124409702": {
+        "name": "Senior Low-Code / No-Code Automation Engineer / Старший инженер по автоматизации с low code / no cod",
+        "salary": "3500 руб.",
+        "average_salary": 3500,
+        "city": "Москва",
+        "created_date": "2025-09-21T06:57:06+03:00",
+        "employer_url": "https://hh.ru/employer/851716"
+    },
+    "https://hh.ru/vacancy/125405665": {
+        "name": "Преподаватель геймдева (Scratch/Roblox) в онлайн-школу",
+        "salary": "от 600 до 1500 руб.",
+        "average_salary": [
+            600,
+            1500
+        ],
+        "city": "Екатеринбург",
+        "created_date": "2025-09-16T17:32:39+03:00",
+        "employer_url": "https://hh.ru/employer/12143734"
+    },
+    "https://hh.ru/vacancy/121847777": {
+        "name": "Преподаватель IT",
+        "salary": "90000 руб.",
+        "average_salary": 90000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-21T17:07:13+03:00",
+        "employer_url": "https://hh.ru/employer/1358439"
+    },
+    "https://hh.ru/vacancy/124461070": {
+        "name": "Преподаватель младших классов в онлайн школу программирования",
+        "salary": "от 35000 до 90000 руб.",
+        "average_salary": [
+            35000,
+            90000
+        ],
+        "city": "Москва",
+        "created_date": "2025-08-25T18:39:30+03:00",
+        "employer_url": "https://hh.ru/employer/2759703"
+    },
+    "https://hh.ru/vacancy/121848586": {
+        "name": "Преподаватель информатики младших классов",
+        "salary": "от 60000 до 90000 руб.",
+        "average_salary": [
+            60000,
+            90000
+        ],
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-21T17:08:45+03:00",
+        "employer_url": "https://hh.ru/employer/1358439"
+    },
+    "https://hh.ru/vacancy/124791631": {
+        "name": "Преподаватель компьютерных курсов школы программирования",
+        "salary": "от 40000 до 50000 руб.",
+        "average_salary": [
+            40000,
+            50000
+        ],
+        "city": "Ростов-на-Дону",
+        "created_date": "2025-09-02T23:47:50+03:00",
+        "employer_url": "https://hh.ru/employer/181453"
+    },
+    "https://hh.ru/vacancy/125278588": {
+        "name": "Преподаватель программирования (для детей 6-12 лет)",
+        "salary": "от 15000 до 60000 руб.",
+        "average_salary": [
+            15000,
+            60000
+        ],
+        "city": "Омск",
+        "created_date": "2025-09-12T15:02:53+03:00",
+        "employer_url": "https://hh.ru/employer/908747"
+    },
+    "https://hh.ru/vacancy/125096495": {
+        "name": "Консультант-стажер 1С (Техподдержка)",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Самара",
+        "created_date": "2025-09-19T15:19:39+03:00",
+        "employer_url": "https://hh.ru/employer/3177"
+    },
+    "https://hh.ru/vacancy/124752261": {
+        "name": "Преподаватель компьютерных курсов",
+        "salary": "60000 руб.",
+        "average_salary": 60000,
+        "city": "Зеленоград",
+        "created_date": "2025-09-02T10:30:13+03:00",
+        "employer_url": "https://hh.ru/employer/3192913"
+    },
+    "https://hh.ru/vacancy/124649598": {
+        "name": "Преподаватель по информатике и программированию",
+        "salary": "10000 руб.",
+        "average_salary": 10000,
+        "city": "Солнцево (Московская область)",
+        "created_date": "2025-08-29T17:37:50+03:00",
+        "employer_url": "https://hh.ru/employer/9037313"
+    },
+    "https://hh.ru/vacancy/115134182": {
+        "name": "Senior SEO-специалист / Старший специалист по поисковому продвижению",
+        "salary": "от 90000 до 140000 руб.",
+        "average_salary": [
+            90000,
+            140000
+        ],
+        "city": "Красноярск",
+        "created_date": "2025-09-03T08:27:39+03:00",
+        "employer_url": "https://hh.ru/employer/3513073"
+    },
+    "https://hh.ru/vacancy/125524222": {
+        "name": "Программист-разработчик",
+        "salary": "100000 руб.",
+        "average_salary": 100000,
+        "city": "Нижний Новгород",
+        "created_date": "2025-09-22T11:59:25+03:00",
+        "employer_url": "https://hh.ru/employer/12309148"
+    },
+    "https://hh.ru/vacancy/125524221": {
+        "name": "Программист-разработчик",
+        "salary": "100000 руб.",
+        "average_salary": 100000,
+        "city": "Санкт-Петербург",
+        "created_date": "2025-09-22T11:59:25+03:00",
+        "employer_url": "https://hh.ru/employer/12309148"
+    },
+    "https://hh.ru/vacancy/124733623": {
+        "name": "Junior Golang Developer",
+        "salary": "от 75000 до 120000 руб.",
+        "average_salary": [
+            75000,
+            120000
+        ],
+        "city": "Воронеж",
+        "created_date": "2025-09-02T00:19:31+03:00",
+        "employer_url": "https://hh.ru/employer/11486464"
+    },
+    "https://hh.ru/vacancy/123735466": {
+        "name": "Ведущий дата-аналитик",
+        "salary": "150000 руб.",
+        "average_salary": 150000,
+        "city": "Сочи",
+        "created_date": "2025-09-18T17:49:55+03:00",
+        "employer_url": "https://hh.ru/employer/10762898"
+    },
+    "https://hh.ru/vacancy/125586648": {
+        "name": "Младший риск-аналитик",
+        "salary": "от 109620 до 135720 руб.",
+        "average_salary": [
+            109620,
+            135720
+        ],
+        "city": "Химки (Московская область)",
+        "created_date": "2025-09-22T09:40:16+03:00",
+        "employer_url": "https://hh.ru/employer/180028"
+    },
+    "https://hh.ru/vacancy/124676823": {
+        "name": "Game programmer (Junior)",
+        "salary": "300 руб.",
+        "average_salary": 300,
+        "city": "Минск",
+        "created_date": "2025-08-31T11:32:10+03:00",
+        "employer_url": "https://hh.ru/employer/8955745"
+    },
+    "https://hh.ru/vacancy/124808470": {
+        "name": "Консультант-стажер 1С (Техподдержка)",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Москва",
+        "created_date": "2025-09-19T15:19:55+03:00",
+        "employer_url": "https://hh.ru/employer/3177"
+    },
+    "https://hh.ru/vacancy/124808487": {
+        "name": "Консультант-стажер 1С (Техподдержка)",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Самара",
+        "created_date": "2025-09-19T15:19:52+03:00",
+        "employer_url": "https://hh.ru/employer/3177"
+    },
+    "https://hh.ru/vacancy/125096471": {
+        "name": "Консультант-стажер 1С (Техподдержка)",
+        "salary": "50000 руб.",
+        "average_salary": 50000,
+        "city": "Москва",
+        "created_date": "2025-09-19T15:19:41+03:00",
+        "employer_url": "https://hh.ru/employer/3177"
     }
 }
