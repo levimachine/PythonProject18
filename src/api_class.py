@@ -1,6 +1,8 @@
 from requests import get
 from abc import ABC, abstractmethod
 from vacancy_class import Vacancy
+from datetime import datetime
+
 
 
 class API(ABC):
@@ -12,39 +14,60 @@ class API(ABC):
 class HeadHunterAPI(API):
     """Класс по работе с HH API"""
 
+    @classmethod
+    def _get_salary(cls, vacancy_salary: dict) -> tuple:
+        salary = None
+        average_salary = None
+        salary_from = vacancy_salary['from']
+        salary_to = vacancy_salary['to']
+
+        if salary_from and salary_to:
+            salary = f'от {salary_from} до {salary_to} руб.'
+            average_salary = [salary_from, salary_to]
+        elif salary_from:
+            salary = f"{salary_from} руб."
+            average_salary = salary_from
+        elif salary_to:
+            salary = f"{salary_to} руб."
+            average_salary = salary_to
+
+        return salary, average_salary
+
+    @classmethod
+    def _get_api_info(cls, text: str, page_number: int = None):
+        response = get(
+            f"https://api.hh.ru/vacancies?text={text}&only_with_salary=true&area=113&page={page_number}&per_page=100")
+        if response.status_code != 200:
+            raise RuntimeError('Не удаётся подключиться к HH API!')
+        else:
+            vacancies_quantity = response.json()['found']
+            response_information = response.json()['items']
+
+        return vacancies_quantity, response_information
+
     def get_vacancies(self, text: str):
         """Метод get_vacancies позволяет получить все вакансии(не больше 2000) по заданному тексту.
         :param text: Текст для поиска."""
         vacancies_list = []
-        vacancies_quantity = get(f"https://api.hh.ru/vacancies?text={text}&only_with_salary=true&area=113").json()[
-            'found']  # Общее количество вакансий
-        for page_number in range(vacancies_quantity // 100 + 1):
+        vacancies_quantity = self._get_api_info(text, 0)  # Общее количество вакансий
+        for page_number in range(vacancies_quantity[0] // 100 + 1):
             # Ставим стоппер, иначе программа "упадёт", потому что можем получить только 2000 вакансий.
             if len(vacancies_list) == 2000:
                 break
             # Обходим каждую страницу по 100 вакансий, per_page не может быть больше 100, page начинается с 0.
-            vacancies = get(
-                f"https://api.hh.ru/vacancies?text={text}&only_with_salary=true&area=113&page={page_number}&per_page=100").json()[
-                'items']
+            vacancies = self._get_api_info(text, page_number)[1]
             for vacancy in vacancies:
-                salary = None
-                average_salary = None  # Средняя между "от" и "до", для сортировки.
+                date = datetime.strptime(vacancy['created_at'], '%Y-%m-%dT%H:%M:%S%z')
                 if vacancy['salary'] is None:
                     continue
-                if vacancy['salary']['from'] and vacancy['salary']['to']:
-                    salary = f'от {vacancy['salary']['from']} до {vacancy['salary']['to']} руб.'
-                    average_salary = [vacancy['salary']['from'], vacancy['salary']['to']]
-                elif vacancy['salary']['to'] is None:
-                    salary = f"{vacancy['salary']['from']} руб."
-                    average_salary = vacancy['salary']['from']
-                elif vacancy['salary']['from'] is None:
-                    salary = f"{vacancy['salary']['to']} руб."
-                    average_salary = vacancy['salary']['to']
+
+                salary, average_salary = self._get_salary(vacancy['salary'])
+
                 vacancies_list.append(Vacancy(name=vacancy['name'],
                                               url=vacancy['alternate_url'],
                                               salary=salary,
                                               average_salary=average_salary,
-                                              created_date=f'{vacancy['created_at'][8:10]}.{vacancy['created_at'][5:7]}.{vacancy['created_at'][0:4]}',
+                                              created_date=date,
                                               city=vacancy['area']['name'],
                                               employer_url=vacancy['employer'].get('alternate_url')))
         return vacancies_list
