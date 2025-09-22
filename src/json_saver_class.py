@@ -78,7 +78,7 @@ class JSONSaver(Saver):
         json_dict_with_vacancies.update({str(vacancy.url): vacancy.model_dump(exclude={'url'}, mode='json')})
         self._write_json(json_dict_with_vacancies)
 
-    def add_list_with_vacancies(self, vacancies_list: list[Vacancy]) ->None:
+    def add_list_with_vacancies(self, vacancies_list: list[Vacancy]) -> None:
         """
         Метод добавляет список вакансий в json-файл в формате url:{info}.
         :param vacancies_list: Список экземпляров класса Vacancy.
@@ -88,7 +88,6 @@ class JSONSaver(Saver):
         for vacancy in vacancies_list:
             json_dict_with_vacancies.update({str(vacancy.url): vacancy.model_dump(exclude={'url'}, mode='json')})
         self._write_json(json_dict_with_vacancies)
-
 
     def get_vacancy_by_salary(self, salary: int | float) -> list | str:
         """
