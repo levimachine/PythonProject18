@@ -10,10 +10,17 @@ def start_program():
                             f'Введи свой запрос а я попытаюсь что-то для тебя найти: ')
     list_with_vacancies = hh_api.get_vacancies(message_1)
     vacancies_quantity = len(list_with_vacancies)
+    if not vacancies_quantity:
+        while not vacancies_quantity:
+            message_1 = input('По вашему запросу ничего не найдено...\n'
+                              'Попробуйте снова: ')
+            list_with_vacancies = hh_api.get_vacancies(message_1)
+            vacancies_quantity = len(list_with_vacancies)
+
     json_saver.add_list_with_vacancies(list_with_vacancies)
     message_2 = int(input(f'По вашему запросу найдено {vacancies_quantity} вакансий!\n'
                       f'Введите ожидаемую зарплату: '))
-    pprint(json_saver.get_vacancy_by_salary(message_2))
-
-start_program()
+    print()
+    for element in json_saver.get_vacancy_by_salary(message_2):
+        print(element.show_vacancy_for_user())
 
